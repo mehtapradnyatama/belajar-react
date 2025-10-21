@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Exercise from './Exercise.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <StrictMode>
     <Exercise />
-  </React.StrictMode>,
+  </StrictMode>,
 )
